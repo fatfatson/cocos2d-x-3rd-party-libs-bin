@@ -9,6 +9,7 @@ DESTDIR=$DIR/prebuilt/ios
 ISDK=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
 ISDKP=$ISDK/usr/bin/
 ISYSROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/
+ISYSROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/
 
 rm "$DESTDIR"/*.a
 cd $SRCDIR
